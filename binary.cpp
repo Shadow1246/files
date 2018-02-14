@@ -12,9 +12,9 @@ int main( )
 
 	if (abc)
 	{
-		abc.write(reinterpret_cast<char>(&a)sizeof(a); 
-		abc.write(reinterpret_cast<char>(&b)sizeof(b); 
-		abc.write(reinterpret_cast<char>(&c)sizeof(c); 
+		abc.write(reinterpret_cast<char*>(&a),sizeof(a)); 
+		abc.write(reinterpret_cast<char*>(&b),sizeof(b)); 
+		abc.write(reinterpret_cast<char*>(&c),sizeof(c)); 
 	}
 	else
 	{
