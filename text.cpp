@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 int main( )
@@ -14,11 +15,13 @@ int main( )
 		abc << a << endl;
 		abc << b << endl;
 		abc << c << endl;
+	}
 	else
 	{
 		cout << "Could not read ";
 	}
-
+ 
+   cout<<a<<" "<<b<<" "<<c;//display data to console (i.e. as formatted chars)
 
    cout<<endl<<endl;
  
